@@ -12,7 +12,7 @@ public interface BaseDao<T>
      */
     T get(Serializable id);
     boolean save(T t);
-    boolean delete(int id);
+    boolean delete(Serializable id);
     List<T> findAll();
     
 }
